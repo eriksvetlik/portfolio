@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
+
+a:hover {
+  text-decoration-color: black;
+}
+
+body {
+  font-family: "Vollkorn", serif;
+  font-size: 2em;
+  line-height: 1.8;
+}
+
+.bg-1 {
+  background-color: white;
+  color: black;
+}
+
+.bg-2 {
+  background-color: #dddddd;
+}
+
+.bg-2 h3 {
+  color: black;
+  font-weight: bold;
+}
+
+.bg-2 p {
+  color: #000000;
+}
+
+.bg-3 {
+  background-color: white;
+  color: #555555;
+}
+
+.bg-3 h2 {
+  color: black;
+}
+
+.container {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.fa-at:hover {
+  color: #dddddd;
+}
+
+.fa-globe:hover {
+  color: #dddddd;
+}
+
+.fa-twitter:hover {
+  color: #dddddd;
+}
+
+.footer {
+  background-color: #dddddd;
+  color: black;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.jumbotron {
+  background-color: white;
+  /* height: 100vh; */
+}
+
+.margin {
+  margin-bottom: 45px;
+}
+
+.vertical-align {
+  display: grid;
+  place-items: center;
+}
