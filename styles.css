@@ -1,81 +1,64 @@
 @import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
 
-a:hover {
-  text-decoration-color: black;
+:root {
+  --primarycolor: #2d2d2d;
 }
 
 body {
-  font-family: "Vollkorn", serif;
-  font-size: 2em;
-  line-height: 1.8;
+  font-family: Vollkorn, serif;
+  line-height: 1.6;
+  color: var(--primarycolor);
 }
 
-.bg-1 {
-  background-color: white;
-  color: black;
+#dark-toggle {
+  cursor: pointer;
 }
 
-.bg-2 {
-  background-color: #dddddd;
+.dark-mode {
+  --primarycolor: #b3b9c5;
+  background-color: #2d2d2d;
 }
 
-.bg-2 h3 {
-  color: black;
+.href {
+  color: var(--primarycolor);
+}
+
+.link1:hover {
   font-weight: bold;
+  color: #f43b86;
 }
 
-.bg-2 p {
-  color: #000000;
+.link2:hover {
+  font-weight: bold;
+  color: #f9c80e;
 }
 
-.bg-3 {
-  background-color: white;
-  color: #555555;
+.link3:hover {
+  font-weight: bold;
+  color: #2de2e6;
 }
 
-.bg-3 h2 {
-  color: black;
+.link4:hover {
+  font-weight: bold;
+  color: #791e94;
 }
 
-.container {
-  padding-top: 70px;
-  padding-bottom: 70px;
+.modal-color {
+  background-color: #2d2d2d;
 }
 
-.container-fluid {
-  padding-top: 70px;
-  padding-bottom: 70px;
+.modal-img {
+  max-width: 60%;
 }
 
-.fa-at:hover {
-  color: #dddddd;
+.project-img {
+  max-width: 75%;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  transition: filter 0.25s ease-in-out;
 }
 
-.fa-globe:hover {
-  color: #dddddd;
-}
-
-.fa-twitter:hover {
-  color: #dddddd;
-}
-
-.footer {
-  background-color: #dddddd;
-  color: black;
-  padding-top: 70px;
-  padding-bottom: 70px;
-}
-
-.jumbotron {
-  background-color: white;
-  /* height: 100vh; */
-}
-
-.margin {
-  margin-bottom: 45px;
-}
-
-.vertical-align {
-  display: grid;
-  place-items: center;
+.project-img:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
 }
